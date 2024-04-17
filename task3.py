@@ -21,3 +21,17 @@ The square root of 3.0 is 1.7320508075688772
 """
 import math
 
+while True:
+    number = input("Enter number (type STOP to end program): ")
+
+    if number=="STOP":
+        exit()
+    else:
+
+        try:
+
+            print("the square root of "+number+" is "+str(math.sqrt(float(number))))
+
+        except:
+            print("YOU CANT TAKE THE SQUARE ROOT OF SOTHING THAT ANT A NUMBER!!! or a negitave number")
+    print("--------")

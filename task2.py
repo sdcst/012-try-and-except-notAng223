@@ -19,3 +19,13 @@ The reciprocal of 3 is 0.3333333333333333
 Enter a number: 4
 The reciprocal of 4 is 0.25
 """
+number = input("enter a number: ")
+
+try:
+
+    number = float(number)
+
+    print("the reciprocal of "+str(round(number, 5))+" is "+str(1/number))
+except:
+
+    print(str(number) + " DONT HAVE A RECIPROCAL!!!")
